@@ -33,10 +33,11 @@ provisioning = conf/provisioning
 [server]
 ```
 as plugins=data/plugins so i had to - 
+```
 [root@web01 grafana-9.3.2]# cd data
 [root@web01 data]# ln -sf /var/lib/grafana/plugins .
 [root@web01 grafana-9.3.2]# cd ..
-
+```
 3. Now start the grafana server service.
 ```
 [root@web01 grafana-9.3.2]# bin/grafana-server
