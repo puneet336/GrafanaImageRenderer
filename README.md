@@ -92,8 +92,9 @@ delete the existing key from settings menu.
 
 
 6. use the API Key /Bearer token and renderer url as - 
+```
 curl -o 4.png -H "Authorization: Bearer eyJrIjoidXZWZk1jTXdYTjFXMkQxTTBxbWVmWWtQS3I2UHBJZFEiLCIjoiYXBpa2V5Y3VybCIsImlkIjoxfQ==" "http://192.168.29.128:3000/render/d-solo/ortu5FxVz/memorydashboard?orgId=1&from=1677454413037&to=1677476013037&panelId=2&width=1000&height=500"
-
+```
 
 
 Thanks all folks!
